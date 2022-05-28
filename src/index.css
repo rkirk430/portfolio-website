@@ -113,5 +113,26 @@ img {
     object-fit: cover;
 }
 
-/* ============= Media Queries (Tables & Medium Size Devices =================== */
+/* ============= Media Queries (Tables & Medium Size Devices) =================== */
 
+@media screen and (max-width: 1024px) {
+    .container {
+        width: var(--containter-width-md);
+    }
+
+    section {
+        margin-top: 6rem;
+    }
+}
+
+/* ============= Media Queries (Phones) =================== */
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: var(--containter-width-sm);
+    }
+
+    section > h2 {
+        margin-bottom: 2rem;
+    }
+}
