@@ -7,14 +7,13 @@ import {MdOutlineWorkOutline} from 'react-icons/md'
 
 const Nav = () => {
   return (
-    <div>
-      <a href = "#"> <AiOutlineHome /> </a> 
+    <nav>
+      <a href = "#" className='active'> <AiOutlineHome /> </a> 
       <a href = "#about"> <FaRegUser /> </a> 
       <a href = "#experience"> <BiBook /> </a> 
       <a href = "#services"> <MdOutlineWorkOutline /> </a> 
       <a href = "#contact"> <BiMessageSquareDots /> </a> 
-
-    </div>
+    </nav>
   )
 }
 
