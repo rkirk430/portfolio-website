@@ -21,6 +21,7 @@ header {
 }
 
 /* ===================== Header Socials ==================== */
+
 .header__socials {
     display: flex;
     flex-direction: column;
@@ -28,5 +29,5 @@ header {
     gap: 0.8rem;
     position: absolute;
     left: 0;
-    bottom: 3rem;
+    bottom: 3rem; 
 }
