@@ -20,8 +20,10 @@ const Portfolio = () => {
             <img src={IMG1} alt="" />
           </div>
           <h3> This is a portfolio item title </h3>
-          <a href="https://github.com" className='btn' target = '_blank'> Github </a>
-          <a href="https://dribble.com/Alien_pixels" className='btn btn-primary' target='_blank'> Live Demo </a>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com" className='btn' target = '_blank'> Github </a>
+            <a href="https://dribble.com/Alien_pixels" className='btn btn-primary' target='_blank'> Live Demo </a>
+          </div>
         </article>
 
       {/* Portfolio Item */}
@@ -30,8 +32,10 @@ const Portfolio = () => {
             <img src={IMG1} alt="" />
           </div>
           <h3> This is a portfolio item title </h3>
-          <a href="https://github.com" className='btn' target = '_blank'> Github </a>
-          <a href="https://dribble.com/Alien_pixels" className='btn btn-primary' target='_blank'> Live Demo </a>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com" className='btn' target = '_blank'> Github </a>
+            <a href="https://dribble.com/Alien_pixels" className='btn btn-primary' target='_blank'> Live Demo </a>
+          </div>
         </article>
 
       {/* Portfolio Item */}
@@ -40,8 +44,10 @@ const Portfolio = () => {
             <img src={IMG1} alt="" />
           </div>
           <h3> This is a portfolio item title </h3>
-          <a href="https://github.com" className='btn' target = '_blank'> Github </a>
-          <a href="https://dribble.com/Alien_pixels" className='btn btn-primary' target='_blank'> Live Demo </a>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com" className='btn' target = '_blank'> Github </a>
+            <a href="https://dribble.com/Alien_pixels" className='btn btn-primary' target='_blank'> Live Demo </a>
+          </div>
         </article>
 
       {/* Portfolio Item */}
@@ -50,8 +56,10 @@ const Portfolio = () => {
             <img src={IMG1} alt="" />
           </div>
           <h3> This is a portfolio item title </h3>
-          <a href="https://github.com" className='btn' target = '_blank'> Github </a>
-          <a href="https://dribble.com/Alien_pixels" className='btn btn-primary' target='_blank'> Live Demo </a>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com" className='btn' target = '_blank'> Github </a>
+            <a href="https://dribble.com/Alien_pixels" className='btn btn-primary' target='_blank'> Live Demo </a>
+          </div>
         </article>
 
       {/* Portfolio Item */}
@@ -60,8 +68,10 @@ const Portfolio = () => {
             <img src={IMG1} alt="" />
           </div>
           <h3> This is a portfolio item title </h3>
-          <a href="https://github.com" className='btn' target = '_blank'> Github </a>
-          <a href="https://dribble.com/Alien_pixels" className='btn btn-primary' target='_blank'> Live Demo </a>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com" className='btn' target = '_blank'> Github </a>
+            <a href="https://dribble.com/Alien_pixels" className='btn btn-primary' target='_blank'> Live Demo </a>
+          </div>
         </article>
 
       {/* Portfolio Item */}
@@ -70,8 +80,10 @@ const Portfolio = () => {
             <img src={IMG1} alt="" />
           </div>
           <h3> This is a portfolio item title </h3>
-          <a href="https://github.com" className='btn' target = '_blank'> Github </a>
-          <a href="https://dribble.com/Alien_pixels" className='btn btn-primary' target='_blank'> Live Demo </a>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com" className='btn' target = '_blank'> Github </a>
+            <a href="https://dribble.com/Alien_pixels" className='btn btn-primary' target='_blank'> Live Demo </a>
+          </div>
         </article>
       </div>
     </section>
