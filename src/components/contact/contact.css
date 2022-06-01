@@ -10,11 +10,36 @@
     /* flex-direction = column sets each "contact option" to be below the other instead of across */
     flex-direction: column;
     gap: 1.2rem;
+}
 
+.contact__option {
+    background: var(--color-bg-variant);
+    /*Padding puts space around your actual content. > Padding = > Space around content */
+    padding: 1.2rem;
+    /* > border-radius = Smoother edges (More like a Circle) */
+    border-radius: 1.2rem;
+    text-align: center;
+    border: 1px solid transparent;
+    /* Uses our "--transition" global variable to slow down the change from solid to transparent when hovering*/
+    transition: var(--transition);
+}
+
+.contact__option:hover {
+    /* Sets background to transparent WHEN hovering */
+    background: transparent;
+    /* Sets Border color WHEN hovering */
+    border-color: var(--color-primary-variant);
+}
+
+.contact__option-icon {
+    color: purple;
 
 }
 
-.contact__options h4 {
+
+
+
+/* .contact__options h4 {
     color: green;
 
 }
@@ -22,4 +47,4 @@
 .contact__options h5 {
     color: purple;
 
-}
+} */
