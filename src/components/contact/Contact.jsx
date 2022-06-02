@@ -3,8 +3,26 @@ import './contact.css'
 import {MdOutlineEmail} from 'react-icons/md'
 import {FaLinkedin} from 'react-icons/fa'
 import {FiPhoneCall} from 'react-icons/fi'
+import { useRef } from 'react';
+import emailjs from 'emailjs-com';
+
 
 const Contact = () => {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+  emailjs.sendForm('service_fthls14', 'template_q59r0jq', form.current, 'nDz1FcThApztcRH-T')
+    .then((result) => {
+        console.log(result.text);
+    }, (error) => {
+        console.log(error.text);
+    });
+    e.target.reset()
+};
+
   return (
     <section id="contact">
       <h5> Get in Touch </h5>
@@ -35,7 +53,7 @@ const Contact = () => {
           </article>
         </div>
 
-        <form action="">
+        <form ref={form} onSubmit={sendEmail}>
           <input type="text" name='name' placeholder='Your Full Name' required />
           <input type="email" name='email' placeholder='Your Email Address' required />
           <textarea name="message" rows='7' placeholder='Your Message' required></textarea>
