@@ -35,7 +35,7 @@ const Contact = () => {
             <MdOutlineEmail className='contact__option-icon' />
             <h4>Email</h4>
             <h5>r.kirk430@gmail.com</h5>
-            <a href="mailto:r.kirk430@gmail.com" target = "_blank"> Send a Message </a>
+            <a href="mailto:r.kirk430@gmail.com" target = "_blank"> Send me an Email </a>
           </article>
           {/* Contact Option 2: */}
           <article className="contact__option">
@@ -47,9 +47,9 @@ const Contact = () => {
           {/* Contact Option 3:  */}
           <article className="contact__option">
             <FiPhoneCall className='contact__option-icon'/>
-            <h4>WhatsApp</h4>
-            <h5>+16003939</h5>
-            <a href="https://api.whatsapp.com/send?phone=+16096102803" target = "_blank"> Send a Message </a>
+            <h4>Phone Number</h4>
+            <h5>+1-609-610-2803</h5>
+            <a href="#"> Call Me </a>
           </article>
         </div>
 
